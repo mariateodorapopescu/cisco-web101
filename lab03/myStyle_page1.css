@@ -1,0 +1,96 @@
+#fname {
+    background-color: darkgoldenrod;
+    border-color: brown;
+}
+
+#fname:hover {
+    background-color: rgb(255, 240, 203);
+    border-color: rgb(255, 221, 0);
+    border-radius: 25%;
+}
+
+#fname:active {
+    background-color: rgb(78, 56, 0);
+    color: white;
+    border-color: rgb(255, 0, 0);
+    border-radius: 25%;
+}
+
+#lname {
+    background-color: darkgoldenrod;
+    border-color: brown;
+}
+
+#lname:hover {
+    background-color: rgb(255, 240, 203);
+    border-color: rgb(255, 221, 0);
+    border-radius: 25%;
+}
+
+#lname:active {
+    background-color: rgb(78, 56, 0);
+    color: white;
+    border-color: rgb(255, 0, 0);
+    border-radius: 25%;
+}
+
+#facultate {
+    background-color: darkgoldenrod;
+    border-color: rgb(75, 0, 0);
+    border-radius: 10%;
+}
+
+#facultate:active {
+    background-color: rgb(214, 202, 171);
+    border-color: rgb(162, 54, 54);
+    border-radius: 10%;
+}
+
+#facultate:hover {
+    background-color: rgb(11, 184, 63);
+    border-color: rgb(102, 171, 151);
+    border-radius: 10%;
+}
+
+#sub {
+    background-color: darkgoldenrod;
+    border-color: rgb(75, 0, 0);
+    border-radius: 10%;
+}
+
+#sub:active {
+    background-color: rgb(214, 202, 171);
+    border-color: rgb(162, 54, 54);
+    border-radius: 10%;
+}
+
+#sub:hover {
+    background-color: rgb(11, 184, 63);
+    border-color: rgb(102, 171, 151);
+    border-radius: 10%;
+}
+
+#res {
+    background-color: darkgoldenrod;
+    border-color: rgb(75, 0, 0);
+    border-radius: 10%;
+}
+
+#res:active {
+    background-color: rgb(3, 82, 4);
+    border-color: rgb(54, 162, 106);
+    color: white;
+    border-radius: 10%;
+}
+
+#res:hover {
+    background-color: rgb(49, 11, 184);
+    border-color: rgb(1, 14, 45);
+    color: white;
+    border-radius: 10%;
+}
+
+.fieldset_style {
+    background-color: antiquewhite;
+    border-color: brown;
+}

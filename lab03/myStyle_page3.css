@@ -1,0 +1,16 @@
+.imagine {
+    background-image: url("image.jpg");
+    height: 100vh;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    animation: loop 3s linear infinite;
+    transform: translate(0, 0);
+}
+
+@keyframes loop {
+    0% {
+        background-position: -150vw 0;
+    }
+    100% {}
+}

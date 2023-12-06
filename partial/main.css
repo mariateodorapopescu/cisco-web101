@@ -1,0 +1,98 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+
+body.active {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    color: #fff;
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+    font-size: 2em;
+}
+
+button {
+    background-color: light-grey;
+}
+
+button:hover {
+    background-color: bisque;
+    color: brown;
+}
+
+.night {
+    display: none;
+    color: bisque;
+}
+
+.day {
+    display: block;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#clockdiv {}
+
+#clockdiv>div {}
+
+#clockdiv div>span {}
+
+.ceva {
+    text-align: center;
+    margin: auto;
+}
+
+.mytimer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.myclock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.timer-fmt {
+    margin-right: 2rem;
+    text-align: center;
+    place-items: center;
+}
+
+.timer-fmt span {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.timer-fmt h4 {
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0.1rem;
+    margin-top: -0.4rem;
+}

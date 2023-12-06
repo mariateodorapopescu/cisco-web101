@@ -1,0 +1,17 @@
+.center_div {
+    display: inline-block;
+}
+
+#frame1_2 {
+    border: 3px dotted;
+    width: 80vh;
+    height: 50vh;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#frame3 {
+    width: 80vh;
+    height: 50vh;
+    margin-top: 5%;
+}
